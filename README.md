@@ -2,8 +2,6 @@
 > **Repositório de Prática Penal Estratégica, Metodologia de Autoria com IA e Ferramentas Forenses.**
 
 Desenvolvido por **[Juan Diego Angélico](https://github.com/juandiegoangelico)**  
-*Advogado e Desenvolvedor | [Angélico Anziutti Advocacia](https://www.angelicoanziutti.com)*  
-Florianópolis/SC • OAB/SC
 
 ---
 
@@ -58,6 +56,4 @@ Todo o conteúdo deste repositório foi construído a partir de **duas fases est
 ## 🤝 Contato & Consultoria
 
 Para parcerias, mentoria ou assessoria jurídica em matéria penal e compliance de dados:
-* **Website:** [angelicoanziutti.com](https://www.angelicoanziutti.com)
-* **LinkedIn:** [linkedin.com/in/juandiegoangelico](https://www.linkedin.com)
 * **Instagram:** [@juandiegoadv](https://instagram.com/juandiegoadv)
