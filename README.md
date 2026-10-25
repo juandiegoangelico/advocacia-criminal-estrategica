@@ -1,5 +1,5 @@
-# Advocacia Criminal Estratégica & Framework de Autoria 2.0
-> **Repositório de Prática Penal Estratégica, Metodologia de Autoria com IA e Ferramentas Forenses.**
+# Advocacia Criminal Estratégica
+> **Framework Prático de Atuação Penal de Alto Nível, Inteligência Artificial Forense e Ferramentas Estratégicas.**
 
 Desenvolvido por **[Juan Diego Angélico](https://github.com/juandiegoangelico)**  
 *Advogado e Desenvolvedor | [Angélico Anziutti Advocacia](https://www.angelicoanziutti.com)*  
@@ -9,27 +9,21 @@ Florianópolis/SC • OAB/SC
 
 ## 📌 Visão Geral
 
-Este repositório combina **prática jurídica de alto nível no processo penal acusatório** com a metodologia **Roteiro Prático 2.0: do Estudo à Autoria com IA (Antigravity 2.0)**. 
+Este repositório consolida o **Método Angélico de Advocacia Criminal Estratégica**: uma metodologia prática desenvolvida para atuação combativa, cirúrgica e orientada a resultados no processo penal acusatório brasileiro.
 
-Ele serve como base pública, auditável e continuamente atualizada de materiais práticos, checklists forenses, modelos contratuais, prompts especializados e fluxos de inteligência artificial aplicados à advocacia criminal combativa.
-
-### Princípio Fundamental de Autoria e Ética (Lei nº 9.610/98)
-Todo o conteúdo deste repositório foi construído a partir de **duas fases estritamente isoladas**:
-1. **Fase 1 (Estudo - Privada):** O agente de IA processa materiais brutos e cursos exclusivamente para gerar anotações conceituais de uso pessoal, com rastreabilidade da origem (acervo de 364.866 palavras transcritas e catalogadas).
-2. **Contribuição Autoral do Advogado:** Aplicação técnica em casos reais, validação de teses perante os Tribunais (TJSC, TRF4, STJ, STF) e formulação de opiniões e estilo próprio.
-3. **Fase 2 (Autoria - Pública):** O agente organiza e redige o material final utilizando **apenas** notas autorais, experimentos validados e estilo próprio do autor. Nenhum arquivo ou paráfrase direta de cursos de terceiros ingressa neste projeto.
+Combinando técnicas avançadas de **Teoria dos Jogos**, **Psicologia do Testemunho**, **Cadeia de Custódia Probatória** e **Inteligência Artificial aplicada à redação jurídica**, o acervo reúne os checklists, matrizes decisórias, modelos contratuais e roteiros práticos utilizados na rotina forense perante Varas Criminais, Câmaras Criminais dos Tribunais de Justiça, TRFs e Tribunais Superiores (STJ e STF).
 
 ---
 
 ## 📂 Estrutura Completa do Repositório
 
 ```text
-├── README.md                           # Apresentação do projeto e índice geral
+├── README.md                           # Apresentação do framework e índice geral
 ├── LICENSE                             # Licença de código e automações (MIT)
 ├── LICENSE-CONTENT.md                  # Licença de textos e guias (CC BY 4.0)
 │
-├── guias/                              # Tutoriais e roteiros práticos originais
-│   ├── roteiro-estudo-autoria.md       # Método completo 2.0 com Antigravity
+├── guias/                              # Manuais e roteiros práticos de atuação
+│   ├── roteiro-estudo-autoria.md       # Framework de produção técnica com IA
 │   ├── guia-audiencia-custodia.md      # Protocolo estratégico de atuação na custódia
 │   ├── guia-investigacao-defensiva.md  # Aplicação do Provimento 188/2018 CFOAB
 │   ├── guia-teoria-dos-jogos-processo-penal.md # Matriz de payoffs e estratégia no CPP
@@ -38,9 +32,9 @@ Todo o conteúdo deste repositório foi construído a partir de **duas fases est
 │   ├── guia-padroes-probatorios-reconhecimento.md # Nulidade do art. 226 do CPP (HC 598.886)
 │   └── guia-anpp-estrategico.md        # Acordo de Não Persecução Penal (Art. 28-A do CPP)
 │
-├── prompts/                            # Biblioteca de prompts validados
-│   ├── prompts-fase1-estudo.md         # Prompts para síntese técnica e rastreabilidade
-│   ├── prompts-fase2-autoria.md        # Prompts para autoria com marcador [PREENCHER]
+├── prompts/                            # Biblioteca de prompts forenses para IA
+│   ├── prompts-fase1-estudo.md         # Prompts para estruturação conceitual
+│   ├── prompts-fase2-autoria.md        # Prompts para redação de peças com voz própria
 │   ├── prompts-analise-denuncia.md     # Auditoria de inépcia formal e justa causa
 │   ├── prompts-habeas-corpus-preventiva.md # Estruturação de HC contra preventiva genérica
 │   └── prompts-auditoria-prova-testemunhal.md # Auditoria de contradições IPL x AIJ
@@ -54,7 +48,7 @@ Todo o conteúdo deste repositório foi construído a partir de **duas fases est
 │   ├── modelo-contrato-honorarios-penal.md # Contrato com honorários escalonados e êxito
 │   └── modelo-pedido-liberdade-art315.md # Revogação de preventiva por falta de contemporaneidade
 │
-├── workflows/                          # Configurações do Antigravity e scripts
+├── workflows/                          # Automações e scripts operacionais
 │   ├── antigravity-config.md           # Configurações de execução contínua
 │   └── transcrever_aulas.py            # Script auxiliar para transcrição em lote
 │
@@ -63,9 +57,9 @@ Todo o conteúdo deste repositório foi construído a partir de **duas fases est
 │   ├── estudo-caso-reconhecimento-fotografico.md # Nulidade de reconhecimento (HC 598.886 STJ)
 │   └── estudo-caso-quebra-cadeia-custodia-whatsapp.md # Imprestabilidade de prints de WhatsApp
 │
-└── produto/                            # Produtos finais da Fase 2 (Autoria)
+└── produto/                            # Manual consolidado
     ├── guia-pratico-advocacia-criminal-estrategica.md # Manual Completo de Prática Penal
-    └── revisao.md                      # Relatório de auditoria de originalidade
+    └── revisao.md                      # Controle de qualidade e diretrizes técnicas
 ```
 
 ---
@@ -77,9 +71,9 @@ Todo o conteúdo deste repositório foi construído a partir de **duas fases est
 
 ---
 
-## 🤝 Contato & Consultoria
+## 🤝 Contato & Atuação Institucional
 
-Para parcerias, mentoria ou assessoria jurídica em matéria penal e compliance de dados:
+Para parcerias, pareceres técnicos e assessoria em matéria penal estratégica e compliance:
 * **Website:** [angelicoanziutti.com](https://www.angelicoanziutti.com)
 * **LinkedIn:** [linkedin.com/in/juandiegoangelico](https://www.linkedin.com)
 * **Instagram:** [@juandiegoadv](https://instagram.com/juandiegoadv)

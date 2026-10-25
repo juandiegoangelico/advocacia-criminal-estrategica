@@ -5,7 +5,7 @@
 
 ---
 
-## Módulo 1: Identidade, Posicionamento e a "Firmeza com Elegância"
+## Capítulo 1: Identidade, Posicionamento e a "Firmeza com Elegância"
 
 ### 1.1 O Advogado Criminalista no Mercado Jurídico
 A advocacia criminal de excelência exige superar o falso tabu de que o direito penal não convive com organização econômica. O criminalista é um prestador de serviços intelectuais de alta complexidade. Sem clientes e sem prospecção ética estruturada, não há oportunidade de exercício da ampla defesa.
@@ -21,7 +21,7 @@ Na relação diária com autoridades públicas (juízes, promotores, delegados d
 
 ---
 
-## Módulo 2: O Tabuleiro Estratégico e a Teoria dos Jogos no CPP
+## Capítulo 2: O Tabuleiro Estratégico e a Teoria dos Jogos no CPP
 
 ### 2.1 O Processo Penal Acusatório como Jogo Interativo
 O processo penal não é uma busca idílica da verdade real, mas um jogo estratégico de informação assimétrica, onde cada intervenção da defesa gera consequências no tabuleiro adversário.
@@ -36,7 +36,7 @@ Fundamentado nas formulações da Teoria dos Jogos aplicada ao processo penal (A
 
 ---
 
-## Módulo 3: Flagrante Delito e Blindagem Contratual de Honorários
+## Capítulo 3: Flagrante Delito e Blindagem Contratual de Honorários
 
 ### 3.1 Atendimento Noturno e Autonomia Contratual
 Ao receber o chamado familiar durante a madrugada:
@@ -54,7 +54,7 @@ Na entrevista prévia e reservada com o preso (art. 7º, III do EAOAB):
 
 ---
 
-## Módulo 4: A Audiência de Custódia Combativa (Resolução 213/CNJ)
+## Capítulo 4: A Audiência de Custódia Combativa (Resolução 213/CNJ)
 
 ### 4.1 O Tripé Decisório Estrito (Art. 310 do CPP)
 A audiência de custódia tem três finalidades exclusivas:
@@ -66,7 +66,7 @@ Jamais discuta a culpa ou inocência do cliente na custódia. O foco da sustenta
 
 ---
 
-## Módulo 5: Investigação Defensiva e Cadeia de Custódia da Prova Digital
+## Capítulo 5: Investigação Defensiva e Cadeia de Custódia da Prova Digital
 
 ### 5.1 O Provimento nº 188/2018 do CFOAB
 A defesa técnica tem poderes para realizar investigações autônomas: colher declarações de testemunhas sob termo formal, contratar assistentes técnicos e solicitar a preservação de dados telemáticos e imagens de CFTV comércios locais.
@@ -78,7 +78,7 @@ Conforme fixado pelo STJ (RHC 131.603/MG e HC 515.707/SP):
 
 ---
 
-## Módulo 6: Audiência de Instrução e Cross-Examination
+## Capítulo 6: Audiência de Instrução e Cross-Examination
 
 ### 6.1 A Ordem Cronológica Sagrada (Art. 400 do CPP)
 Vítima ➔ Testemunhas de Acusação ➔ Testemunhas de Defesa ➔ Peritos ➔ Interrogatório do Réu.  
@@ -91,7 +91,7 @@ Qualquer inversão não consentida pela defesa enseja nulidade absoluta por viol
 
 ---
 
-## Módulo 7: Recursos e Memoriais de Ponto Cego em Câmaras Criminais
+## Capítulo 7: Recursos e Memoriais de Ponto Cego em Câmaras Criminais
 
 ### 7.1 A Bipartição da Apelação (Art. 600, § 4º do CPP)
 Interponha o recurso no juízo de 1º grau no prazo de 5 dias requerendo a apresentação das razões perante o Tribunal. Isso garante tempo hábil para degravar vídeos e redigir razões aprofundadas.

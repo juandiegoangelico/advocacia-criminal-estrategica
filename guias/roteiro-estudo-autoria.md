@@ -1,86 +1,75 @@
-# Roteiro Prático 2.0: do Estudo à Autoria com o Antigravity
+# Framework de Pesquisa, Validação e Autoria Jurídica com IA
 
-**Autor:** Juan Diego Angélico  
-**Área:** Metodologia de IA Aplicada à Advocacia & Produção de Conteúdo Jurídico Autoral
+**Autor:** Juan Diego Angélico (Angélico Anziutti Advocacia)  
+**Finalidade:** Metodologia de Engenharia de Conhecimento e Produção Técnica Autoral com Antigravity
 
 ---
 
 ## 1. Visão Geral
 
-Este roteiro estabelece um padrão rigoroso para transformar estudos, cursos e referências técnicas em material próprio, com você como autor legítimo perante a Lei de Direitos Autorais (Lei nº 9.610/98).
+Este framework estabelece uma metodologia estruturada para transformar pesquisas doutrinárias, julgados dos tribunais e análises técnicas em **conteúdo jurídico autoral de alto valor**, preservando o rigor técnico e a originalidade da voz do advogado.
 
-O trabalho ocorre em **duas fases que jamais se misturam**:
-1. **Fase 1, Estudo (Privada):** O agente de IA lê materiais de terceiros e gera notas conceituais estritamente para seu uso pessoal de aprendizado, com a fonte de cada ideia mapeada. Nada daqui é publicado.
-2. **Sua Contribuição (Filtro Humano):** Você aplica os métodos em casos reais, registra resultados, dados, divergências e sua própria voz.
-3. **Fase 2, Autoria (Pública):** Em um projeto fisicamente isolado no computador, sem acesso aos arquivos originais dos cursos, o agente atua como editor organizando exclusivamente as suas notas, testes e casos.
+O fluxo é dividido em **duas fases com isolamento estrutural**:
+1. **Fase 1 (Pesquisa & Consolidação Conceitual):** O agente de IA processa o acervo legislativo, precedentes e documentos brutos em uma pasta privada, organizando conceitos e teses.
+2. **Validação Prática Forense:** O advogado aplica e valida as teses no contexto real de sua advocacia (varas e tribunais), registrando casos concretos, impressões práticas e estratégias próprias.
+3. **Fase 2 (Autoria & Redação de Produtos):** Em um ambiente isolado, sem os arquivos brutos da pesquisa inicial, o agente atua como editor organizando os manuais, checklists e petições a partir exclusivamente das anotações e da casuística do autor.
 
 ---
 
-## 2. Princípio Jurídico de Autoria (Lei nº 9.610/98)
+## 2. Princípios de Originalidade e Rigor Técnico
 
-Ideias, sistemas e métodos são livres (art. 8º da Lei nº 9.610/98). No entanto, a forma como outro autor expressou essas ideias é protegida (art. 29). Paráfrase gerada por IA sobre obra alheia continua configurando obra derivada/adaptação não autorizada.
+A produção intelectual jurídica diferenciada exige que a prática do advogado seja o elemento central da obra:
 
-| Pode Usar Livremente | Não Pode Usar sem Autorização |
+| Elemento | Abordagem Autoral |
 | :--- | :--- |
-| Conceitos jurídicos, artigos do CPP, teses consolidadas | Textos literais ou roteiros de aulas do curso original |
-| Sua própria sequência didática e curricular | A mesma estrutura de módulos e aulas do autor |
-| Exemplos e casos reais da sua própria advocacia | Exemplos fictícios ou casos próprios do professor |
-| Prompts e templates desenvolvidos e validados por você | Prompts e tabelas copiados do material do curso |
-| Ideias de várias fontes cruzadas e devidamente citadas | Frameworks com nome próprio comercial do autor sem citação |
+| **Doutrina e Jurisprudência** | Extração dos conceitos abstratos e aplicação aos julgados vinculantes atuais (STF e STJ) |
+| **Sequência Didática** | Fluxo cronológico concebido a partir da rotina da trincheira penal |
+| **Casuística** | Casos reais e hipotéticos estruturados pela vivência forense do advogado |
+| **Prompts e Peças** | Modelos e comandos testados e validados na prática forense diária |
 
 ---
 
-## 3. Arquitetura de Pastas e Isolamento Físico
-
-A separação física em diretórios independentes impede vazamento acidental de dados (*data leakage*):
+## 3. Arquitetura de Pastas e Separação de Ambientes
 
 ```text
-/Estudos/CursoCriminal/              ← Fase 1 (Privada)
-   ├── fontes/                       # Arquivos originais do curso (.pdf, .docx, .mp4)
-   ├── transcricoes/                 # Transcrições em texto (.txt, .srt)
-   └── saida/                        # anotacoes_estudo.md e relatorio.md
+/Pesquisa/ProjetoPenal/               ← Fase 1 (Pesquisa Privada)
+   ├── fontes/                       # Jurisprudência, legislação e acervo bruto
+   ├── transcricoes/                 # Transcrições e degravações de atos processuais
+   └── saida/                        # Anotações conceituais de trabalho
 
-/Autoria/AdvocaciaCriminal/          ← Fase 2 (Pública / Repositório Git)
-   ├── notas/                        # Suas notas reescritas com suas palavras
-   ├── experimentos/                 # Casos práticos, peças, números e decisões
-   ├── estilo/                       # Textos que expressam sua voz e tom profissional
-   └── produto/                      # Onde o agente compõe os guias finais
+/Autoria/AdvocaciaCriminal/          ← Fase 2 (Repositório Público / Produtos)
+   ├── notas/                        # Conceitos e teses consolidadas pelo autor
+   ├── experimentos/                 # Casos práticos, peças e resultados
+   ├── estilo/                       # Diretrizes de tom e voz do autor
+   └── produto/                      # Guias, modelos e apostilas finais
 ```
 
 ---
 
-## 4. O Prompt de Estudo (/goal Fase 1)
+## 4. O Prompt de Estruturação Conceitual (Fase 1)
 
 ```text
 /goal
-Leia recursivamente os arquivos de /fontes e /transcricoes (.pdf, .txt, .md, .srt).
-Liste no relatório qualquer arquivo de vídeo/áudio sem transcrição e qualquer arquivo que não conseguiu ler.
-
-Crie /saida/anotacoes_estudo.md para MEU USO PESSOAL DE ESTUDO:
-- Organize os conceitos em ordem de aprendizado.
-- Para cada conceito: o que é, por que importa, como se aplica.
-- Indique a origem de cada item no formato [arquivo, aula].
-- Separe o que é princípio geral (ideia/método) do que é material específico do autor (exemplos, cases, frameworks com nome próprio, prompts prontos).
-- Ao final de cada módulo, liste "Dúvidas para testar na prática".
-
-Crie também /saida/relatorio.md com: arquivos lidos, arquivos ignorados e o motivo, e trechos ambíguos que precisam de revisão.
+Leia os documentos de /fontes e /transcricoes.
+Crie /saida/anotacoes_estudo.md para USO TÉCNICO INTERNO:
+- Organize os conceitos em ordem lógica de atuação forense.
+- Para cada conceito: o que é, por que importa e como se aplica no processo penal.
+- Destaque divergências jurisprudenciais entre STJ e Tribunais Estaduais.
+- Ao final de cada tópico, liste "Questões Práticas para Validação Forense".
 ```
 
 ---
 
-## 5. O Prompt de Autoria (/goal Fase 2)
+## 5. O Prompt de Redação Autoral (Fase 2)
 
 ```text
 /goal
-Usando APENAS os arquivos de /notas, /experimentos e /estilo, monte em /produto/guia.md um material original sobre [TEMA], para [PÚBLICO-ALVO].
+Usando APENAS os arquivos de /notas, /experimentos e /estilo, monte em /produto/guia.md um manual prático sobre [TEMA].
 
 Regras:
 - Siga a sequência didática definida em /notas/sequencia.md.
-- Escreva com a voz dos textos em /estilo (tom, vocabulário, ritmo).
-- Use como exemplos somente os casos reais de /experimentos.
-- Foque no passo a passo prático, mantendo o "porquê" de cada etapa.
-- Inclua "Erros Comuns e Como Evitar" ao final de cada aula, baseado nos erros registrados em /experimentos.
-- Quando uma ideia tiver autor conhecido indicado nas notas, cite a fonte no texto.
-- Não acrescente fatos, números ou exemplos que não estejam nos arquivos. Se faltar algo, marque [PREENCHER] e liste no final.
-- Ao terminar, crie /produto/revisao.md com as lacunas encontradas.
+- Escreva com a voz dos textos em /estilo (assertiva, combativa e técnica).
+- Use como exemplos somente os casos de /experimentos.
+- Inclua "Erros Comuns e Como Evitar" ao final de cada capítulo.
+- Se faltar dados locais específicos da comarca, use o marcador [PREENCHER].
 ```
